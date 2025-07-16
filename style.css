@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main {
+    background-image: url("assets/images/background.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    
+}
+
+.main .box {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: rgb(0, 0, 0);
+}
+
+nav {
+    display: flex;
+    max-width: 85vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 102px;
+}
+
+nav img {
+    height: 40px;
+    width: 200px;
+    position: relative;
+    z-index: 10;
+    display: block;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family:"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    padding: 23px;
+    text-align: center;
+    
+}
+
+.hero> :nth-child(1) {
+    font-size: 56px;
+    line-height: 70px;
+    font-weight: bolder;
+    font-style: normal;
+    width: 600px;
+    text-align: center;
+    margin-top: 20px;
+
+
+}
+.hero> :nth-child(2) {
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 5px 0;
+}
+.hero> :nth-child(3) {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+input{
+    width: 420px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    background: transparent;
+    position: relative;
+    border: 2px solid #d8d5d5;
+    color: #ffffff;
+}
+.Getbutton{
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#emailinput::placeholder{
+    color:#d8d5d5;
+}
+.main .hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main .button1 {
+    width: 70px;
+    height: 32px;
+    border-radius: 5px;
+    border: none;
+    background: transparent;
+    color: white;
+    border: 1px solid #a6a2a2;
+    font-size: 16px;
+    font-weight:400;
+    margin-bottom: 18px;
+    margin-right: 10px;
+}
+.main .button2 {
+    width: 70px;
+    height: 32px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(229, 9, 20);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.emailform {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
